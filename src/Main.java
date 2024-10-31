@@ -1,5 +1,8 @@
+import edu.iuh.fit.cs.gui.GuiController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GuiController guiController = new GuiController();
+        guiController.init();
     }
 }
